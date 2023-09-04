@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "timestamp": "2022-05-17T10:07:10Z",
+  "hash": "",
+  "system": {
+    "physical_tag": {
+      "asset": {
+        "name": "FCU-303"
+      }
+    }
+  },
+  "pointset": {
+    "points": {
+      "fcu_303_room_temp": {
+        "ref": "AI1101.present_value",
+        "units": "Degrees-Celsius"
+      },
+      "fcu_303_supply_air_temp": {
+        "ref": "AI1102.present_value",
+        "units": "Degrees-Celsius"
+      },
+      "fcu_303_heating_valve": {
+        "ref": "AO1105.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_cooling_valve": {
+        "ref": "AO1106.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_fan_speed": {
+        "ref": "AO1107.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_setpoint": {
+        "ref": "AV1.present_value",
+        "units": "Degrees-Celsius"
+      },
+      "fcu_303_min_fan_speed": {
+        "ref": "AV2.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_max_fan_speed": {
+        "ref": "AV3.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_design_fan_speed": {
+        "ref": "AV4.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_design_heating_valve_position": {
+        "ref": "AV5.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_design_cooling_valve_position": {
+        "ref": "AV6.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_mode_mimic": {
+        "ref": "AV7.present_value",
+        "units": "No-units"
+      },
+      "fcu_303_comfort_kpi_score_live": {
+        "ref": "AV9991.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_comfort_kpi_score_yesterday": {
+        "ref": "AV9992.present_value",
+        "units": "Percent"
+      },
+      "fcu_303_fan_status": {
+        "ref": "BI1104.Present_Value",
+        "units": "No-units"
+      },
+      "fcu_303_enable": {
+        "ref": "BO1108.Present_Value",
+        "units": "No-units"
+      },
+      "fcu_303_bms_remote": {
+        "ref": "BV1.Present_Value",
+        "units": "No-units"
+      },
+      "fcu_303_fcu_run_status": {
+        "ref": "BV2.Present_Value",
+        "units": "No-units"
+      },
+      "fcu_303_within_bounds": {
+        "ref": "BV9991.Present_Value",
+        "units": "No-units"
+      },
+      "fcu_303_valve_control_loop": {
+        "ref": "CO1.Present_Value",
+        "units": "No-units"
+      },
+      "fcu_303_fan_control_loop": {
+        "ref": "CO2.Present_Value",
+        "units": "No-units"
+      },
+      "fcu_303_mode": {
+        "ref": "MV1.Present_Value",
+        "units": "No-units"
+      },
+      "fcu_303_times": {
+        "ref": "SCH1.Present_Value",
+        "units": "No-units"
+      }
+    }
+  },
+  "localnet": {
+    "subsystem": {
+      "bacnet": {
+        "local_id": "1001001"
+      }
+    }
+  },
+  "gateway": {
+    "gateway_id": "GAT-4121442-FCU-102"
+  }
+}
